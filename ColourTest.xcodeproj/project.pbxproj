@@ -16,6 +16,7 @@
 		09B2B21414269509000D264E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B2B21214269509000D264E /* MainWindow.xib */; };
 		09B2B21714269509000D264E /* ColourTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B2B21614269509000D264E /* ColourTestViewController.m */; };
 		09B2B21A14269509000D264E /* ColourTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B2B21814269509000D264E /* ColourTestViewController.xib */; };
+		09B2B22214269A31000D264E /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B2B22114269A31000D264E /* TouchView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		09B2B20014269509000D264E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		09B2B20214269509000D264E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		09B2B20414269509000D264E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		09B2B20814269509000D264E /* ColourTest-Info.plist */ = {isa = PBXFileReference; path = "ColourTest-Info.plist"; sourceTree = "<group>"; };
+		09B2B20814269509000D264E /* ColourTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColourTest-Info.plist"; sourceTree = "<group>"; };
 		09B2B20A14269509000D264E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09B2B20C14269509000D264E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		09B2B20E14269509000D264E /* ColourTest-Prefix.pch */ = {isa = PBXFileReference; path = "ColourTest-Prefix.pch"; sourceTree = "<group>"; };
-		09B2B20F14269509000D264E /* ColourTestAppDelegate.h */ = {isa = PBXFileReference; path = ColourTestAppDelegate.h; sourceTree = "<group>"; };
+		09B2B20E14269509000D264E /* ColourTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColourTest-Prefix.pch"; sourceTree = "<group>"; };
+		09B2B20F14269509000D264E /* ColourTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColourTestAppDelegate.h; sourceTree = "<group>"; };
 		09B2B21014269509000D264E /* ColourTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColourTestAppDelegate.m; sourceTree = "<group>"; };
 		09B2B21314269509000D264E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		09B2B21514269509000D264E /* ColourTestViewController.h */ = {isa = PBXFileReference; path = ColourTestViewController.h; sourceTree = "<group>"; };
+		09B2B21514269509000D264E /* ColourTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColourTestViewController.h; sourceTree = "<group>"; };
 		09B2B21614269509000D264E /* ColourTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColourTestViewController.m; sourceTree = "<group>"; };
 		09B2B21914269509000D264E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ColourTestViewController.xib; sourceTree = "<group>"; };
+		09B2B22014269A31000D264E /* TouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		09B2B22114269A31000D264E /* TouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				09B2B21614269509000D264E /* ColourTestViewController.m */,
 				09B2B21814269509000D264E /* ColourTestViewController.xib */,
 				09B2B20714269509000D264E /* Supporting Files */,
+				09B2B22014269A31000D264E /* TouchView.h */,
+				09B2B22114269A31000D264E /* TouchView.m */,
 			);
 			path = ColourTest;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 				09B2B20D14269509000D264E /* main.m in Sources */,
 				09B2B21114269509000D264E /* ColourTestAppDelegate.m in Sources */,
 				09B2B21714269509000D264E /* ColourTestViewController.m in Sources */,
+				09B2B22214269A31000D264E /* TouchView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
